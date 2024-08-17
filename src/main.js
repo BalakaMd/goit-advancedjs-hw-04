@@ -41,6 +41,8 @@ async function onSearchClick(event) {
           'Sorry, there are no images matching your search query. Please try again!',
         position: 'topCenter',
       });
+      loadMoreBtn.classList.add('is-hidden');
+
       return;
     }
     gallery.insertAdjacentHTML('beforeend', createGalleryMarkup(data.hits));

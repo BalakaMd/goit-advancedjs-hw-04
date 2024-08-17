@@ -115,3 +115,21 @@
     transform: rotate(360deg);
   }
 }
+
+.load-more-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.is-hidden {
+  display: none;
+}
